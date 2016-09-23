@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         VinciLog.init(LogLevel.DEBUG, "PENG", this);
-
+        VinciLog.startLogSave();
         VinciLog.e("This is a test");
     }
 }

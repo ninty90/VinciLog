@@ -123,7 +123,7 @@ public class VinciLog {
 
         try
         {
-            SimpleDateFormat sdFormatter = new SimpleDateFormat("[MM-dd HH:mm:ss]", Locale.CHINA);
+            SimpleDateFormat sdFormatter = new SimpleDateFormat("[MM-dd HH:mm:ss:sss]", Locale.CHINA);
             //BufferedWriter for performance, true to set append to file flag
             BufferedWriter buf = new BufferedWriter(new FileWriter(logFile, true));
             buf.append(sdFormatter.format(System.currentTimeMillis()));
