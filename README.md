@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/CPPAlien/VinciLog.svg)](https://jitpack.io/#CPPAlien/VinciLog)
+[![](https://jitpack.io/v/ninty90/VinciLog.svg)](https://jitpack.io/#ninty90/VinciLog)
 # VinciLog
 
 Friendly android log lib, includes crash info collection, log saving, and more friendly log printing format
