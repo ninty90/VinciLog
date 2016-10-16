@@ -56,7 +56,7 @@ public class VinciLog {
         if ( logLevel == LogLevel.NONE ) return;
         String fileName = "log.txt";
         enableLogFile = true;
-        File dir = mContext.getCacheDir();
+        File dir = mContext.getExternalCacheDir();
         logFile = new File(dir, fileName);
     }
 
